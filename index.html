@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head Tail Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Head & Tail Game</h1>
+    <div class="choices disable-choices">
+        <div class="choice" id=1>
+            <img src="./one.png">
+        </div>
+        <div class="choice " id=2>
+            <img src="./two.png">
+        </div>
+        <div class="choice " id=3>
+            <img src="./three.png">
+        </div>
+        <div class="choice " id=4>
+            <img src="./four.png">
+        </div>
+        <div class="choice " id=5>
+            <img src="./five.png">
+        </div>
+        <div class="choice " id=6>
+            <img src="./six.png">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <h3>Scoreboard</h3>
+        <div class="inner-score">
+            <div class="user-score score">
+                <p id="us0">0</p>
+                <p>User</p> 
+            </div>
+            <div class="comp-score score">
+                <p id="co0">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+    </div>
+    <h4 class = "h4hide">It's an Out</h4>
+     <div class="msg-container">
+        <p id="msg">Start from Toss</p>
+    </div>
+
+    <div class="nr">
+        <button class="new-game hide-ng">New Game</button>
+    </div>
+
+    <div class="toss-container">
+        <button class="toss ">Toss</button>
+        <div class="toss-choice hide-tchoice">
+            <p class="heads tosses">Heads</p>
+            <p class="tails tosses">Tails</p>
+        </div>
+        <div class="borb hide-borb">
+            <p class="bat tosses">Bat</p>
+            <p class="bowl tosses">Bowl</p>
+        </div>
+    </div>
+
+
+        
+    <script src="app.js"></script>
+</body>
+</html>

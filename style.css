@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    line-height: 4rem;
+    background-color: chocolate;
+    color: white;
+}
+
+.choices {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.choice {
+    height: 158px;
+    width: 158px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.score-board {
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.inner-score {
+    display: flex;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+
+
+.msg-container {
+    margin-top: 2rem;
+
+}
+
+#msg {
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    border: 2px solid chocolate;
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.score {
+    font-size: 1.5rem;
+}
+
+.toss-container {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.toss {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.toss:hover {
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+
+.toss-choice {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.borb {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tosses {
+    background-color: rgb(20, 0, 153);
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+}
+
+.tosses:hover {
+    background-color: rgb(28, 28, 255);
+    cursor: pointer;
+    border-color: chocolate;
+    transition-duration: 250ms;
+
+}
+
+.hide-toss {
+    display: none;
+}
+.hide-borb {
+    display: none;
+}
+
+.hide-tchoice {
+    display: none;
+}
+
+.nr {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.new-game {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.hide-ng {
+    display: none;
+}
+
+.new-game:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-color: chocolate;
+    transition-duration: 250ms;
+
+}
+
+.reset {
+    display: none;
+}
+
+.disable-choices {
+    pointer-events: none; /* This prevents user clicks */
+    opacity: 0.5; /* To visually show it's disabled */
+}
+
+h4 {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.h4hide {
+    display: none;
+}
+
